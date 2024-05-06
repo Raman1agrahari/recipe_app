@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style .css">
+    <title>Recipe App</title>
+    <script src="https://kit.fontawesome.com/2785a37038.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>RECIPE APP</h1> 
+        <form>
+            <label for ="SearchBox"></label>
+            <input type="text" name="recipe" class="SearchBox" placeholder="Search for recipes">
+            <button type ="submit" class="SearchBtn">Search</button>
+        </form>
+    </header>
+    <!--main-->
+    <main>
+        <div class="recipe-container">
+            <p>Search your favourite recipes...</p>
+        </div>
+        <div class="recipe-details">
+            <button type="button" class="recipe-close-btn">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </button>
+            <div class="recipe-details-content"></div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
